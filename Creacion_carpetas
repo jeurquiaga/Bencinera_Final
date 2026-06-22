@@ -1,0 +1,8 @@
+import os
+
+os.makedirs("data", exist_ok=True)
+os.makedirs("etl", exist_ok=True)
+os.makedirs("tests", exist_ok=True)
+os.makedirs("api", exist_ok=True)
+
+print(" carpetas /etl/, /data/, /api/ y /tests/")
